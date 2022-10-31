@@ -5,7 +5,17 @@ header{
 
 #btn1{
   border-color: #232946;
-}
+  color:#232946;
+  }
+
+  a{
+    text-decoration:solid;
+    color: white;
+  }
+
+  a:hover{
+    color:white;
+  }
 
 #btn1:hover{
   background-color: #232946;
@@ -15,6 +25,7 @@ header{
 #btn2{
   background-color: #232946;
   color: white;
+  text-decoration:solid;
 }
 
 #btn2:hover{
@@ -59,3 +70,17 @@ text-align: center;
 .valid-feedback{
   color: #eebbc3;
 }
+
+.footer {
+  height: 150px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0px;
+}
+.footer p{
+padding: 60px 0px;
+text-align: center;
+
+}
+
